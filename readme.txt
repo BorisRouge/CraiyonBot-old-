@@ -1,5 +1,5 @@
-To do list:
-1) Query translation - add logic!
--- 2) Chat bot announcements (e.g."Wait 30 sec.")
--- 3) Command descriptions?
-4) Keys hide keys in .env (there are problems)
+This is a telegram bot that receives a command with a text in Russian, translates it into English with Yandex.Translation API, sends the translated request to Craiyon.com (an AI model that can draw images from any text prompt), parses the response, decodes the images and sends them to the user. 
+
+@FedInfoBot
+
+Not yet always online.
