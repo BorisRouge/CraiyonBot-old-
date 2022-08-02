@@ -1,10 +1,11 @@
+import os
 import requests
 from IAM_by_JWT import Token
 
 def translate (texts,IAM_TOKEN): # IAM Token should be also called from main.py when initialized.
    # Coucou.
   # print(IAM_TOKEN)
-  folder_id = 'b1gqae2gmkfcn453as9g'
+  folder_id = os.getenv('folder_id')
   target_language = 'en'  
   
   body = {

@@ -1,10 +1,11 @@
-from telegram.ext import Updater, CommandHandler
-import translate_api
+import os
 import requests
 import base64
+from telegram.ext import Updater, CommandHandler
+import translate_api
 from IAM_by_JWT import Token
 
-API_KEY = '5583450667:AAFdakFbPAvXtwPMcPTuI1_K8JRXvr6Ly_E'
+API_KEY = os.getenv('API_KEY')
 # The translation API token is initialized when the main.py starts. It will be renewed, when needed, in the translate_api.py module. 
 IAM_TOKEN = Token()
 IAM_TOKEN = IAM_TOKEN.get_token()
@@ -62,8 +63,7 @@ def draw(update, context):
 
 
   
-def main():
-  # Delete the API key before production
+def main():  
   updater = Updater(API_KEY)
   dp = updater.dispatcher
   dp.add_handler(CommandHandler('dog',dog))

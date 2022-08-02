@@ -32,6 +32,7 @@ deactivate () {
     # Self destruct!
         unset -f deactivate
     fi
+    unset service_account_id="ajesfftasqmulg457ngm" service_account_id="ajesfftasqmulg457ngm" API_KEY = '5583450667:AAFdakFbPAvXtwPMcPTuI1_K8JRXvr6Ly_E' folder_id = 'b1gqae2gmkfcn453as9g' key_id='aje9l48u7a0m9op6a9c8'
 }
 
 # unset irrelevant variables
@@ -74,3 +75,5 @@ fi
 if [ -n "${BASH:-}" -o -n "${ZSH_VERSION:-}" ] ; then
     hash -r
 fi
+
+export service_account_id="ajesfftasqmulg457ngm" API_KEY='5583450667:AAFdakFbPAvXtwPMcPTuI1_K8JRXvr6Ly_E' folder_id='b1gqae2gmkfcn453as9g' key_id='aje9l48u7a0m9op6a9c8'
