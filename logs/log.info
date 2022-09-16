@@ -1,0 +1,90 @@
+INFO:apscheduler.scheduler:Scheduler started
+INFO:__main__:The requested prompt is: Нарисуй Боима
+INFO:__main__:It has been translated as: Draw Boim
+INFO:__main__:Craiyon's response: <Response [200]>
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/f/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 557, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/f/.local/lib/python3.10/site-packages/telegram/ext/handler.py", line 199, in handle_update
+    return self.callback(update, context)
+  File "/home/f/Documents/Training/Miscellanious_archive/Miscellanious/DalleBot0.2/TGbot/bot.py", line 58, in draw
+    context.bot.send_media_group(chat_id=chat_id, me=media_group)
+  File "/home/f/.local/lib/python3.10/site-packages/telegram/bot.py", line 133, in decorator
+    result = func(*args, **kwargs)
+TypeError: Bot.send_media_group() got an unexpected keyword argument 'me'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:apscheduler.scheduler:Scheduler started
+INFO:__main__:The requested prompt is: Нарисуй Боима
+INFO:__main__:It has been translated as: Draw Boim
+INFO:__main__:Craiyon's response: <Response [200]>
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:apscheduler.scheduler:Scheduler started
+INFO:__main__:The requested prompt is: Нарисуй Боима
+INFO:translator.translate_api:Yandex responds with: 200
+INFO:__main__:It has been translated as: Draw Boim
+INFO:__main__:Craiyon's response: <Response [200]>
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:__main__:Bot started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:__main__:Bot started
+INFO:__main__:The requested prompt is: Миядзаки красноярские столбы
+INFO:translator.translate_api:Yandex responds with: 200
+INFO:__main__:It has been translated as: Miyazaki Krasnoyarsk pillars
+INFO:__main__:Craiyon's response: <Response [200]>
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:__main__:Bot stopped
+INFO:apscheduler.scheduler:Scheduler started
+INFO:__main__:Bot started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:apscheduler.scheduler:Scheduler started
+INFO:__main__:Bot started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:apscheduler.scheduler:Scheduler started
+INFO:__main__:Bot started
+INFO:__main__:The requested prompt is: полет шмеля
+INFO:translator.translate_api:Yandex responds with: 200
+INFO:__main__:It has been translated as: flight of the bumblebee
+INFO:__main__:Craiyon's response: <Response [200]>
+INFO:__main__:The requested prompt is: /start
+INFO:translator.translate_api:Yandex responds with: 200
+INFO:__main__:It has been translated as: /start
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:apscheduler.scheduler:Scheduler started
+INFO:__main__:Bot started
+INFO:__main__:The requested prompt is: Ельцин носит латы
+INFO:translator.translate_api:Yandex responds with: 200
+INFO:__main__:It has been translated as: Yeltsin wears armor
+INFO:__main__:Craiyon's response: <Response [200]>
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:__main__:Bot stopped
+INFO:apscheduler.scheduler:Scheduler started
+INFO:__main__:Bot started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:apscheduler.scheduler:Scheduler started
+INFO:__main__:Bot started
+INFO:__main__:The requested prompt is: Ельцин носит латы
+INFO:translator.translate_api:Yandex responds with: 200
+INFO:__main__:It has been translated as: Yeltsin wears armor
+INFO:__main__:Craiyon's response: <Response [200]>
+INFO:__main__:The requested prompt is: Ельцин носит платье
+INFO:translator.translate_api:Yandex responds with: 200
+INFO:__main__:It has been translated as: Yeltsin wears a dress
+INFO:__main__:Craiyon's response: <Response [200]>
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
