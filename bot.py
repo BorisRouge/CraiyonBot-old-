@@ -26,7 +26,7 @@ def start(update, context):
     context.bot.send_message(
         chat_id=update.message.chat_id,
         text='Напиши словесное описание того, что хочешь видеть '
-        'нарисованным. Например, "/draw Ельцин носит латы".')
+        'нарисованным. Например, "Ельцин носит латы".')
 
 
 def draw(update, context, token=IAM_TOKEN):
