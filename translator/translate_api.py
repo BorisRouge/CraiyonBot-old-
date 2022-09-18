@@ -26,8 +26,5 @@ def translate(texts, token):  # IAM Token should be also called from bot.py when
     log.info(f'Yandex responds with: {response.status_code}')
     if response.status_code == 401:
         log.info('Unauthorized. Getting a new token.')
-        return PermissionError
-        # token = Token()
-        # token = token.get_token()
-        # return translate(texts, token)
+        raise PermissionError
     return response.json()['translations'][0]['text']
